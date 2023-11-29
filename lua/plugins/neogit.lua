@@ -13,4 +13,5 @@ return {
   },
   config = true,
   cmd = "Neogit",
+  keys = keys,
 }
