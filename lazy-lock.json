@@ -1,0 +1,8 @@
+{
+  "diffview.nvim": { "branch": "main", "commit": "3dc498c9777fe79156f3d32dddd483b8b3dbd95f" },
+  "fzf-lua": { "branch": "main", "commit": "1fa0252f760cec028709e02f7473a5156d1ad040" },
+  "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
+  "neogit": { "branch": "master", "commit": "763948abc669cf93ef0f33d20b350d309681d459" },
+  "plenary.nvim": { "branch": "master", "commit": "366b0837486f60ae0e7550c15de8ff66d057c4cd" },
+  "telescope.nvim": { "branch": "master", "commit": "84c5a71d825b6687a55aed6f41e98b92fd8e5454" }
+}
