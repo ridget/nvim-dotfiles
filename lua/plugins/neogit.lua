@@ -1,6 +1,6 @@
 local keys = function()
   local neogit = require('neogit')
-  vim.keymap.set("n", "<leader>gs", neogit.open({cwd = "%:p:h", kind = "split"}), {})
+  vim.keymap.set("n", "<leader>gs", ":Neogit<CR>")
 end
 
 return {
