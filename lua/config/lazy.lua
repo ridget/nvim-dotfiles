@@ -13,4 +13,16 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load plugin specs from lua/plugins/*.lua
-require("lazy").setup("plugins", {})
+require("lazy").setup({{ import = "plugins"}, {import = "plugins.lsp" }},  {
+	install = {
+		colorscheme = { "nightfly" },
+	},
+	checker = {
+		enabled = true,
+		notify = false,
+	},
+	change_detection = {
+		notify = false
+	}
+})
+
