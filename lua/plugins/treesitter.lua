@@ -53,6 +53,14 @@ local config = function()
 			"xml",
 			"yaml",
 		},
+		incremental_selection = {
+			keymaps = {
+				init_selection = "<C-space>",
+				node_incremental = "<C-space>",
+				scope_incremental = false,
+				node_decremental = "<bs>",
+			},
+		},
 		highlight = {
 			enable = true,
 		},
